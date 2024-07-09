@@ -38,7 +38,3 @@ ng serve
 ## Swagger Docs
 
 Documentation available at http://localhost:3000/api/api-docs/
-
-# Content Management System API
-
-Backend Developer Assessment
