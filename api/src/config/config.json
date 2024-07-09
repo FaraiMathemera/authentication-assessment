@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "blogpassword",
+    "database": "blogdb",
+    "host": "blog-db.cdriq2ocopfi.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "admin",
+    "password": "blogpassword",
+    "database": "blogdb",
+    "host": "blog-db.cdriq2ocopfi.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "blogpassword",
+    "database": "blogdb",
+    "host": "blog-db.cdriq2ocopfi.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

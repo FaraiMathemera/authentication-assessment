@@ -1,0 +1,38 @@
+<div class="create-blog-container">
+  <h1>Login</h1>
+  <mat-card>
+    <form (ngSubmit)="onSubmit()">
+      <mat-card-content fxLayout="column">
+        <mat-form-field appearance="outline" class="full-width">
+          <input
+            matInput
+            placeholder="Enter username"
+            [(ngModel)]="auth.username"
+            name="username"
+            required
+          />
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="full-width">
+          <input
+            matInput
+            placeholder="Password"
+            [(ngModel)]="auth.password"
+            name="password"
+            type="password"
+            required
+          />
+        </mat-form-field>
+        <div class="action-buttons">
+          <button
+            mat-stroked-button
+            color="primary"
+            class="save-button"
+            type="submit"
+          >
+            Login
+          </button>
+        </div>
+      </mat-card-content>
+    </form>
+  </mat-card>
+</div>

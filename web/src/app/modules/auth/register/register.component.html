@@ -1,0 +1,66 @@
+<div class="create-blog-container">
+  <h1>Register</h1>
+  <mat-card>
+    <form (ngSubmit)="onSubmit()">
+      <mat-card-content fxLayout="column">
+        <mat-form-field appearance="outline" class="full-width">
+          <input
+            matInput
+            placeholder="Enter name"
+            [(ngModel)]="auth.name"
+            name="email"
+            required
+          />
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="full-width">
+          <input
+            matInput
+            placeholder="Enter surname"
+            [(ngModel)]="auth.surname"
+            name="email"
+            required
+          />
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="full-width">
+          <input
+            matInput
+            placeholder="Enter email"
+            [(ngModel)]="auth.email"
+            name="email"
+            required
+          />
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="full-width">
+          <input
+            matInput
+            placeholder="Password"
+            [(ngModel)]="auth.password"
+            name="body"
+            required
+            type="password"
+          />
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="full-width">
+          <input
+            matInput
+            placeholder="Confirm Password "
+            [(ngModel)]="auth.confirm_password"
+            name="body"
+            required
+            type="password"
+          />
+        </mat-form-field>
+        <div class="action-buttons">
+          <button
+            mat-stroked-button
+            color="primary"
+            class="save-button"
+            type="submit"
+          >
+            Register
+          </button>
+        </div>
+      </mat-card-content>
+    </form>
+  </mat-card>
+</div>

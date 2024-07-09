@@ -1,0 +1,8 @@
+{
+  "/echo": {
+    "target": "https://2uz7g4lamkotcyrcliblozzgs40huvow.lambda-url.us-east-1.on.aws",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
